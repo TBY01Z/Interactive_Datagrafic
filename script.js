@@ -64,9 +64,11 @@ const myChart = new Chart(ctx, {
             { label: 'Flüssigkeitskarton', data: [], backgroundColor: 'rgba(254, 206, 233, 1)', borderColor: 'rgba(0, 0, 0, 1)', borderWidth: 1 }]
     },
     options: {
+        maintainAspectRatio: false,
+        responsive: true,
         plugins: {
             legend: {
-                qdisplay: true,
+                display: true,
                 position: 'bottom',
                 labels: {
                     color: 'rgb(32, 101, 0)',

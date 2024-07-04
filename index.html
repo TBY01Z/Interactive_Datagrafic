@@ -14,29 +14,26 @@
         <nav>
             <img src="assets/Logo.png" class="header_logo">
             <ul>
-                <li><a href="index.html">
-                    Start</a></li>
-                <li><a href="#grafic">
-                    Grafik</a></li>
-                <li><a href="#effect">
-                    Effekte</a></li>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="#grafic">Grafik</a></li>
+                <li><a href="#effect">Effekte</a></li>
             </ul>
         </nav>
     </header>
     <div id="slides">
         <div class="slideshow-container">
             <div class="mySlides fade">
-              <img src="assets/picture_01.jpg" alt="Bild von Daniel Albany auf Pixabay" style="width:100%">
+                <img src="assets/picture_01.jpg" alt="Bild von Daniel Albany auf Pixabay" style="width:100%">
             </div>
             <div class="mySlides fade">
-              <img src="assets/picture_02.jpg" alt="Bild von Steve Buissinne auf Pixabay" style="width:100%">
+                <img src="assets/picture_02.jpg" alt="Bild von Steve Buissinne auf Pixabay" style="width:100%">
             </div>
             <div class="mySlides fade">
-              <img src="assets/picture_03.jpg" alt="Bild von Squirrel_photos auf Pixabay" style="width:100%">
+                <img src="assets/picture_03.jpg" alt="Bild von Squirrel_photos auf Pixabay" style="width:100%">
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>     
+        </div>     
     </div>
     <section id="body">
         <div style="text-align:center">
@@ -55,42 +52,39 @@
             <div class="grafic">
                 <div id="chart_box">
                     <div id="grafic">
-                        <canvas id="myChart">Dein Browser unterstützt Canvas nicht!<br> Bitte aktualisiere deinen Browser.</Canvas></canvas>
+                        <canvas id="myChart">Dein Browser unterstützt Canvas nicht!<br> Bitte aktualisiere deinen Browser.</canvas>
                     </div>
-                    
-                    
                 </div>
                 <div class="Event_Change">
-                    <!-- Checkboxen für Kategorien -->
                     <div id="check_boxes">
                         <div class="split">
-                        <div class="check_box">
-                            <input type="checkbox" id="fluessigkeitskarton" class="category-filter" value="Flüssigkeitskarton" checked>
-                            <label for="fluessigkeitskarton">Flüssigkeitskarton</label>
+                            <div class="check_box">
+                                <input type="checkbox" id="fluessigkeitskarton" class="category-filter" value="Flüssigkeitskarton" checked>
+                                <label for="fluessigkeitskarton">Flüssigkeitskarton</label>
+                            </div>
+                            <div class="check_box">
+                                <input type="checkbox" id="papier" class="category-filter" value="Papier, Pappe, Karton" checked>
+                                <label for="papier">Papier, Pappe, Karton</label>
+                            </div>
+                            <div class="check_box">
+                                <input type="checkbox" id="kunststoff" class="category-filter" value="Kunststoff" checked>
+                                <label for="kunststoff">Kunststoff</label>
+                            </div>
                         </div>
-                        <div class="check_box">
-                            <input type="checkbox" id="papier" class="category-filter" value="Papier, Pappe, Karton" checked>
-                            <label for="papier">Papier, Pappe, Karton</label>
+                        <div class="split">
+                            <div class="check_box">
+                                <input type="checkbox" id="aluminium" class="category-filter" value="Aluminium" checked>
+                                <label for="aluminium">Aluminium</label>
+                            </div>
+                            <div class="check_box">
+                                <input type="checkbox" id="weissblech" class="category-filter" value="Weißblech" checked>
+                                <label for="weissblech">Weißblech</label>
+                            </div>
+                            <div class="check_box">
+                                <input type="checkbox" id="glas" class="category-filter" value="Glas" checked>
+                                <label for="glas">Glas</label>
+                            </div>
                         </div>
-                        <div class="check_box">
-                            <input type="checkbox" id="kunststoff" class="category-filter" value="Kunststoff" checked>
-                            <label for="kunststoff">Kunststoff</label>
-                        </div>
-                    </div>
-                    <div class="split">
-                        <div class="check_box">
-                            <input type="checkbox" id="aluminium" class="category-filter" value="Aluminium" checked>
-                            <label for="aluminium">Aluminium</label>
-                        </div>
-                        <div class="check_box">
-                            <input type="checkbox" id="weissblech" class="category-filter" value="Weißblech" checked>
-                            <label for="weissblech">Weißblech</label>
-                        </div>
-                        <div class="check_box">
-                            <input type="checkbox" id="glas" class="category-filter" value="Glas" checked>
-                            <label for="glas">Glas</label>
-                        </div>
-                    </div>
                     </div>
                     <div class="dropdown-container">
                         <div class="year_selection">
@@ -137,8 +131,7 @@
                                 <option value="1993">1993</option>
                                 <option value="1994">1994</option>
                                 <option value="1995">1995</option>
-                                <option selected
-                                    value="1996">1996</option>
+                                <option selected value="1996">1996</option>
                                 <option value="1997">1997</option>
                                 <option value="1998">1998</option>
                                 <option value="1999">1999</option>
@@ -164,12 +157,10 @@
                                 <option value="2019">2019</option>
                                 <option value="2020">2020</option>
                                 <option value="2021">2021</option>
-                        </select>
+                            </select>
                         </div>
+                    </div>
                 </div>
-                <!--Dropdown Menü-->
-               
-            </div>
             </div>
         </section>
         <div class="timeline-container">
@@ -182,7 +173,6 @@
                 </div>
             </div>
         </div>
-        
         <div class="text">
             <div id="effect"><h1 class="headline">Die Effekte unseres Verpackungskonsums</h1></div>
             <div id="text">
@@ -198,27 +188,24 @@
     <div id="slides1">
         <div class="slideshow-container1">
             <div class="mySlides1 fade1">
-              <img src="assets/picture_04.jpg" alt="Bild von Sergei Tokmakov auf Pixabay" style="width:100%">
+                <img src="assets/picture_04.jpg" alt="Bild von Sergei Tokmakov auf Pixabay" style="width:100%">
             </div>
             <div class="mySlides1 fade1">
-              <img src="assets/picture_05.jpg" alt="Bild von Karuvadgraphy auf Pixabay" style="width:100%">
+                <img src="assets/picture_05.jpg" alt="Bild von Karuvadgraphy auf Pixabay" style="width:100%">
             </div>
             <div class="mySlides1 fade1">
-              <img src="assets/picture_06.jpg" alt="Bild von Pete Linforth auf Pixabay" style="width:100%">
+                <img src="assets/picture_06.jpg" alt="Bild von Pete Linforth auf Pixabay" style="width:100%">
             </div>
             <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
             <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
-          </div>     
+        </div>     
     </div>
     <footer class="footer">
         <nav>
             <ul>
-                <li class="footer_link"><a href="https://www.umweltbundesamt.de/daten/ressourcen-abfall/verwertung-entsorgung-ausgewaehlter-abfallarten/verpackungsabfaelle#verpackungen-uberall">
-                    Daten</a></li>
-                <li class="footer_link"><a href="#">
-                    Dokumentation</a></li>
-                <li class="footer_link"><a href="Author.html">
-                    Author</a></li>
+                <li class="footer_link"><a href="https://www.umweltbundesamt.de/daten/ressourcen-abfall/verwertung-entsorgung-ausgewaehlter-abfallarten/verpackungsabfaelle#verpackungen-uberall">Daten</a></li>
+                <li class="footer_link"><a href="#">Dokumentation</a></li>
+                <li class="footer_link"><a href="Author.html">Author</a></li>
             </ul>
             <img src="assets/Logo.png" class="footer_logo">
         </nav>
