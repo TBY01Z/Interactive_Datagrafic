@@ -1,3 +1,6 @@
 01 = Bild von Daniel Albany auf Pixabay
 02 = Bild von Steve Buissinne auf Pixabay
 03 = Bild von Squirrel_photos auf Pixabay
+04 = Bild von Sergei Tokmakov auf Pixabay
+05 = Bild von Karuvadgraphy auf Pixabay
+06 = Bild von Pete Linforth auf Pixabay

@@ -236,19 +236,15 @@ const events = {
     },
     1998: {
       title: "1. Novelle der Verpackungsverordnung",
-      source: "https://www.gesetze-im-internet.de/verpackv_1998/BJNR122600998.html"
-    },
-    2000: {
-      title: "Elektro- und Elektronikgerätegesetz (ElektroG)",
-      source: "https://www.gesetze-im-internet.de/elektrog/"
+      source: "https://www.buzer.de/gesetz/3971/index.html"
     },
     2001: {
       title: "2. Novelle der Verpackungsverordnung",
-      source: "https://www.umweltbundesamt.de/sites/default/files/medien/pdfs/verpackv_2001.pdf"
+      source: "https://www.buzer.de/gesetz/3971/index.html"
     },
     2005: {
       title: "3. Novelle der Verpackungsverordnung",
-      source: "https://www.umweltbundesamt.de/sites/default/files/medien/pdfs/verpackv_2005.pdf"
+      source: "https://www.buzer.de/gesetz/3971/index.html"
     },
     2006: {
       title: "Batteriegesetz (BattG)",
@@ -256,11 +252,11 @@ const events = {
     },
     2008: {
       title: "4. Novelle der Verpackungsverordnung",
-      source: "https://www.bmu.de/fileadmin/Daten_BMU/Download_PDF/Abfallwirtschaft/verpackv_novelle.pdf"
+      source: "https://www.buzer.de/gesetz/3971/index.html"
     },
     2009: {
       title: "5. Novelle der Verpackungsverordnung",
-      source: "https://www.bmu.de/fileadmin/Daten_BMU/Download_PDF/Abfallwirtschaft/5_nov_verpackv.pdf"
+      source: "https://www.buzer.de/gesetz/3971/index.html"
     },
     2011: {
       title: "Kreislaufwirtschaftsgesetz (KrWG)",
@@ -268,10 +264,10 @@ const events = {
     },
     2014: {
       title: "6. Novelle der Verpackungsverordnung",
-      source: "https://www.bmu.de/fileadmin/Daten_BMU/Download_PDF/Abfallwirtschaft/6_nov_verpackv.pdf"
+      source: "https://www.buzer.de/gesetz/3971/index.html"
     },
     2017: {
-      title: "Gesetz über das Inverkehrbringen, die Rücknahme und die umweltverträgliche Entsorgung von Elektro- und Elektronikgeräten (ElektroG)",
+      title: "Gesetz über umweltverträgliche Entsorgung von Elektro- und Elektronikgeräten (ElektroG)",
       source: "https://www.gesetze-im-internet.de/elektrog_2015/"
     },
     2019: {
@@ -284,7 +280,7 @@ const events = {
     },
     2021: {
       title: "Novelle des Verpackungsgesetzes",
-      source: "https://www.bmu.de/gesetz/verpackungsgesetz-verpackg/"
+      source: "https://www.bmu.de/https://www.verpackungsgesetz.com/themen/das-neue-verpackungsgesetz-verpackg2-2021//verpackungsgesetz-verpackg/"
     }
   };
  

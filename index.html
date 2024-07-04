@@ -3,8 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Interaktive Datengrafik</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="/assets/Logo.png">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -13,11 +14,11 @@
         <nav>
             <img src="assets/Logo.png" class="header_logo">
             <ul>
-                <li><a href="#home">
+                <li><a href="index.html">
                     Start</a></li>
-                <li><a href="#">
+                <li><a href="#grafic">
                     Grafik</a></li>
-                <li><a href="#">
+                <li><a href="#effect">
                     Effekte</a></li>
             </ul>
         </nav>
@@ -62,6 +63,7 @@
                 <div class="Event_Change">
                     <!-- Checkboxen für Kategorien -->
                     <div id="check_boxes">
+                        <div class="split">
                         <div class="check_box">
                             <input type="checkbox" id="fluessigkeitskarton" class="category-filter" value="Flüssigkeitskarton" checked>
                             <label for="fluessigkeitskarton">Flüssigkeitskarton</label>
@@ -74,6 +76,8 @@
                             <input type="checkbox" id="kunststoff" class="category-filter" value="Kunststoff" checked>
                             <label for="kunststoff">Kunststoff</label>
                         </div>
+                    </div>
+                    <div class="split">
                         <div class="check_box">
                             <input type="checkbox" id="aluminium" class="category-filter" value="Aluminium" checked>
                             <label for="aluminium">Aluminium</label>
@@ -86,6 +90,7 @@
                             <input type="checkbox" id="glas" class="category-filter" value="Glas" checked>
                             <label for="glas">Glas</label>
                         </div>
+                    </div>
                     </div>
                     <div class="dropdown-container">
                         <div class="year_selection">
@@ -179,8 +184,7 @@
         </div>
         
         <div class="text">
-            <div class="home"></div>
-            <h1 class="headline">Die Nachteile unseres Verpackungskonsums</h1>
+            <div id="effect"><h1 class="headline">Die Effekte unseres Verpackungskonsums</h1></div>
             <div id="text">
                 <p class="subtitle">Verpackungskonsum hat auch erhebliche Nachteile. Der Müll an den Stränden zeigt die Umweltbelastung durch Plastikverpackungen, die häufig in Meeren und an Küsten landen. Diese Abfälle bedrohen marine Ökosysteme und gefährden die Tierwelt. Außerdem tragen Einwegverpackungen zur Ressourcenverschwendung bei, da ihre Herstellung viel Energie und Rohstoffe verbraucht. Die Entsorgung von Verpackungsmüll belastet zudem Deponien und Recyclinganlagen, was zu zusätzlichen Kosten und Umweltproblemen führt. Insgesamt erfordert der Verpackungskonsum eine kritische Betrachtung und verstärkte Bemühungen um nachhaltige Lösungen.</p>
             </div>
@@ -194,13 +198,13 @@
     <div id="slides1">
         <div class="slideshow-container1">
             <div class="mySlides1 fade1">
-              <img src="assets/picture_01.jpg" alt="Bild von Daniel Albany auf Pixabay" style="width:100%">
+              <img src="assets/picture_04.jpg" alt="Bild von Sergei Tokmakov auf Pixabay" style="width:100%">
             </div>
             <div class="mySlides1 fade1">
-              <img src="assets/picture_02.jpg" alt="Bild von Steve Buissinne auf Pixabay" style="width:100%">
+              <img src="assets/picture_05.jpg" alt="Bild von Karuvadgraphy auf Pixabay" style="width:100%">
             </div>
             <div class="mySlides1 fade1">
-              <img src="assets/picture_03.jpg" alt="Bild von Squirrel_photos auf Pixabay" style="width:100%">
+              <img src="assets/picture_06.jpg" alt="Bild von Pete Linforth auf Pixabay" style="width:100%">
             </div>
             <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
             <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
@@ -213,8 +217,8 @@
                     Daten</a></li>
                 <li class="footer_link"><a href="#">
                     Dokumentation</a></li>
-                <li class="footer_link"><a href="#">
-                    Authoren</a></li>
+                <li class="footer_link"><a href="Author.html">
+                    Author</a></li>
             </ul>
             <img src="assets/Logo.png" class="footer_logo">
         </nav>
