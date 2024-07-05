@@ -299,7 +299,7 @@ function updateEvent(){
                     <div>
                         <h4>${year}</h4>
                         <p>${events[year].title}</p>
-                        <a href="${events[year].source}">  i  </button>
+                        <a href="${events[year].source}" target="_blank">  i  </button>
                     </div>
                 `;
             }
